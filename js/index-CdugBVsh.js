@@ -1,1 +1,0 @@
-import{al as n}from"./vendor-A6JlZVLd.js";import{r as s}from"./index-CArSrdEM.js";const o="/login",r="/getUserInfo",e="/getDisablePasswordLogin",a="/setCurrentUserInfo",U=n("Safety",()=>({accountLogin:async t=>await s.post(o,t),userInfo:async()=>await s.get(r),passwordLoginStatus:async()=>await s.get(e),saveCurrentUserInfo:async t=>{await s.post(a,t)}}));export{U as u};
